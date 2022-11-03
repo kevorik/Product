@@ -1,0 +1,19 @@
+<div class="products">
+    <div class="header">
+        <div class="header-text">IphoneShop</div>
+    </div>
+    <div class="body">
+    <div class="product" *ngFor="let product of products;let i = index">
+        <button class="delete" (click)="deleteproducts(product.id)"> Delete</button>
+        <img class="image" src="{{product.image}}">
+        <!-- <div class="header-title"> -->
+        <div class="title">{{product.title}}</div>
+        <!-- </div> -->
+        <div class="product-right">
+        <div class="instock"> В налuчuu {{product.inStock}}</div>
+        <div class="raiting">* {{product.raiting}}</div>
+        <div class="price">{{product.price}} Rub</div>
+    </div>
+    </div>
+    </div>
+</div>

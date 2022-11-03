@@ -1,0 +1,23 @@
+.create{
+    border-width: 1px;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 9px;
+    padding-right: 4px;
+    margin-bottom: 3px;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.create-button{
+    background: rgb(0, 0, 600);
+    color: white;
+    border: 1px solid lightgrey;
+    width: 75px;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
