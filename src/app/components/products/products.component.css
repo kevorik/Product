@@ -44,6 +44,7 @@
     position: absolute;
     width: 900px;
     justify-content: center;
+    margin-top:12px;
 }
 .image{
     height: 300px;
@@ -60,5 +61,12 @@
     background-color: pink;
     color: black;
     font-size: 12px;
+    margin-top: 50px;
     
+}
+.raiting{
+    margin-top: 35px;
+}
+.price{
+    margin-top: 35px;
 }

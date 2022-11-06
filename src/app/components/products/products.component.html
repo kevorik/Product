@@ -4,7 +4,7 @@
     </div>
     <div class="body">
     <div class="product" *ngFor="let product of products;let i = index">
-        <button class="delete" (click)="deleteproducts(product.id)"> Delete</button>
+        <button class="delete" (click)="deleteproducts(product._id)"><mat-icon>delete</mat-icon></button> 
         <img class="image" src="{{product.image}}">
         <!-- <div class="header-title"> -->
         <div class="title">{{product.title}}</div>

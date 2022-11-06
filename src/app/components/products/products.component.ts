@@ -24,7 +24,7 @@ export class ProductsComponent implements OnInit {
       }
 
       deleteproducts(id: any){
-        console.log('id', id);
+        console.log('id');
         this.dataService.deleteIdProducts(id).subscribe((del: any)=>{
          this.getproducts()
          
@@ -33,3 +33,4 @@ export class ProductsComponent implements OnInit {
       }
 
     }
+ 

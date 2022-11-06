@@ -19,7 +19,8 @@ export class DataService {
   }
 
   deleteIdProducts(id: any) {
-    return this.http.delete( 'http://localhost:3000/products',{params:id});
+    console.log('id',id);
+    return this.http.delete( 'http://localhost:3000/products/'+id);
   }
   // create()
 

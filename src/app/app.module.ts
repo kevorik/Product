@@ -7,6 +7,9 @@ import { ModalComponent } from './components/modal/modal.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductsCreateComponent } from './components/products-create/products-create.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatIconModule} from '@angular/material/icon';
+
+
 
 
 @NgModule({
@@ -21,7 +24,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
